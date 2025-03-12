@@ -1,0 +1,82 @@
+*{
+	margin: 10px;
+	padding: 0;
+}
+
+
+body {
+	background-color: #F0E9D3; 
+	font-family: "Times New Roman", serif; /* Change font to Times New Roman */
+	text-align: center;
+}
+
+
+table {
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse; /* Collapse borders */
+}
+
+th, td {
+    border: 1px solid black; /* Add border to table cells */
+    padding: 8px; /* Add padding to table cells */
+    text-align: left; /* Align text to the left */
+}
+
+
+.board {
+	display: inline-block;
+	margin: 20px;
+}
+
+
+.Name {
+    font-size: 20px; /* Aumentar tamaño de texto */
+    
+    
+}
+
+.btnAdd {
+    font-size: 20px; /* Aumentar tamaño de texto */
+    padding: 15px 30px; /* Más espacio dentro del botón */
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Quitar borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Icono de mano al pasar */
+    margin: 10px; /* Espaciado alrededor del botón */
+}
+
+.btnAdd:hover {
+    background-color: #45a049; /* Cambiar color al pasar el ratón */
+}
+
+#left-image-container {
+    position: absolute; /* Permite posicionar el contenedor de manera absoluta */
+    top: 200px; /* Ajusta la distancia desde la parte superior */
+    left: 0; /* Coloca el contenedor en el borde izquierdo */
+    height: 800px; /* Ajusta la altura automáticamente según la imagen */
+    width: 400px; /* Ajusta el ancho para hacerlo más angosto */
+    display: flex; /* Alinea el contenido dentro del contenedor */
+    align-items: flex-start; /* Alinea la imagen con la parte superior del contenedor */
+    justify-content: center; /* Centra horizontalmente el contenido dentro del contenedor */
+}
+
+#left-image {
+    width: 100%; /* Asegura que la imagen ocupe el 100% del ancho del contenedor */
+    height: 100%; /* Mantiene la proporción de la imagen */
+}
+#right-image-container {
+    position: absolute;
+    top: 200px; /* Ajusta la distancia desde la parte superior */
+    right: 0; /* Coloca la imagen en el borde derecho */
+    height: 800px;
+    width: 400px; /* Ajusta el ancho */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#right-image {
+    width: 100%;
+    height: 100%;
+}
