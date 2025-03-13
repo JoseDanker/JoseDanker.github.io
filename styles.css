@@ -20,6 +20,7 @@ table {
 th, td {
     border: 1px solid black; 
     padding: 8px; 
+    font-size: 2em;
     text-align: left; 
 }
 
@@ -31,11 +32,11 @@ th, td {
 
 /* Name styles */
 .Name {
-    font-size: 1.25em; /* Changed to relative font size */
+    font-size: 2em; /* Changed to relative font size */
 }
 
 .btnAdd {
-    font-size: 20px; 
+    font-size: 2em; 
     padding: 15px 30px; 
     background-color: #4CAF50; 
     color: white; 
