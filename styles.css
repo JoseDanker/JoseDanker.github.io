@@ -52,10 +52,10 @@ th, td {
 
 /* Image container styles */
 #left-image-container, #right-image-container {
-    position: relative; 
-    top: 200px; 
+    position: fixed; 
+    top: 0px; 
     height: auto; 
-    width: 45%; 
+    width: 20%; 
     display: flex; 
     align-items: flex-start; 
     justify-content: center; 
