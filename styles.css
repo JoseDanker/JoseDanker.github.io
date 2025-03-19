@@ -1,38 +1,40 @@
 /* Reset margins and paddings */
-* {
-    margin: 10px;
-    padding: 0;
-}
+
 
 /* Body styles */
 body {
     background-color: #F0E9D3; 
     font-family: "Times New Roman", serif; 
-    text-align: center;
+    text-align: left;
 }
 
 /* Table styles */
 table {
-    margin: 0 auto; 
+    margin: 25px auto; 
     border-collapse: collapse; 
 }
 
 th, td {
     border: 1px solid black; 
     padding: 8px; 
-    font-size: 1.5em;
+    font-size: 40px;
     text-align: left; 
 }
 
 /* Board styles */
 .board {
+    
     display: inline-block;
     margin: 20px;
 }
 
 /* Name styles */
 .Name {
-    font-size: 2em; /* Changed to relative font size */
+    font-size: 40px; /* Changed to relative font size */
+}
+.Title {
+    font-size: 50px;
+    text-align: center;
 }
 
 .btnAdd {
@@ -54,8 +56,8 @@ th, td {
 #left-image-container {
     position: relative; 
     top: 0px; 
-    height: auto; 
-    width: 20%; 
+    height: 40%; 
+    width: auto; 
     display: flex; 
     align-items: flex-start; 
     justify-content: center; 

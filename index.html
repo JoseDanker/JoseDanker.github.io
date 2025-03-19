@@ -3,55 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>My Page</title>
 </head>
 <body>
-    <h1 class="Name">My Page</h1>
-    <p class="Name">Name: José Ignacio Danker Galdames</p>
-    <p class="Name">Major: Civil Computer Engineering</p>
-    <p class="Name">Enrollment year: 2022</p>
-    <a class="Name">Github:</a><a class="Name" href="https://github.com/JoseDanker">https://github.com/JoseDanker</a>
-    <p class="Name">I am 26 years old and I live in Santiago, Chile.</p>
     
-    <table>
-        <tbody>
-            <tr>
-                <td>Python</td>
-                <td>Advanced</td>
-            </tr>
-            <tr>
-                <td>JavaScript</td>
-                <td>Advanced</td>
-            </tr>
-            <tr>
-                <td>HTML/CSS</td>
-                <td>Advanced</td>
-            </tr>
-            <tr>
-                <td>C/C++</td>
-                <td>Basic</td>
-            </tr>
-            <tr>
-                <td>English</td>
-                <td>Advanced</td>
-            </tr>
-            <tr>
-                <td>Spanish</td>
-                <td>Native</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="container-sm">
+        <h1 class="Title">My Page</h1>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <p class="Name">Name: José Ignacio Danker Galdames</p>
+                </div>
+                <div class="col">
+                <p class="Name">Major: Civil Computer Engineering</p>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <p class="Name">Enrollment year: 2022</p>
+                </div>
+                <div class="col">
+                    <a class="Name">Github:</a> <a class="Name" href="https://github.com/JoseDanker">https://github.com/JoseDanker</a>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <p class="Name">I am 26 years old and I live in Santiago, Chile.</p>
+                </div>
+            </div>
+        </div>
 
-    <input class="Name" type="text" id="colorInput" placeholder="Enter color">
-    <button class="btnAdd" onclick="changeButtonColor()">Change color</button>
-
-    <div id="left-image-container">
-        <a href="https://raidshadowlegends.com/"> 
-            <img src="Raid_Shadow_Legends_cover.jpg" alt="Raid Shadow Legends Cover" id="left-image">
-        </a>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Python</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>HTML/CSS</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>C/C++</td>
+                    <td>Basic</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>Spanish</td>
+                    <td>Native</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <input class="Name" type="text" id="colorInput" placeholder="Enter color">
+                </div>
+                <div class="col">
+                    <button class="btnAdd" onclick="changeButtonColor()">Change color</button>
+                </div>
+            </div>
+        </div>
+    
+        <div id="left-image-container">
+            <a href="https://raidshadowlegends.com/"> 
+                <img src="Raid_Shadow_Legends_cover.jpg" alt="Raid Shadow Legends Cover" id="left-image">
+            </a>
+        </div>
     </div>
-
+    
+    
+    
+    
     <script>
         function changeButtonColor() {
             const color = document.getElementById('colorInput').value;
