@@ -37,7 +37,7 @@ th, td {
     text-align: center;
 }
 
-.btnAdd {
+.btnAdd1 {
     font-size: 2em; 
     padding: 15px 30px; 
     background-color: #4CAF50; 
@@ -48,7 +48,7 @@ th, td {
     margin: 10px; 
 }
 
-.btnAdd:hover {
+.btnAdd1:hover {
     background-color: #45a049; 
 }
 
