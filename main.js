@@ -1,10 +1,10 @@
 
 
 const setupEventListeners = () => {
-	document.querySelector('.btn-group').addEventListener('click', inicioJuego)
+	document.querySelector('.btn-group').addEventListener('click', fetchNews)
 }
 
-function inicioJuego(){
+function fetchNews(){
     let show_news = document.getElementById('noticias');
     show_news.innerHTML = "";
 
